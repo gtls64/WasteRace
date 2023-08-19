@@ -1,0 +1,8 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="ChangeSceneButton">
+			<method name="LoadScene"/>
+			<method name="LoadScene"/>
+		</type>
+	</assembly>
+</linker>
