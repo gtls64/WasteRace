@@ -6,9 +6,7 @@ public class YellowBin : MonoBehaviour
 
 {
     
-    public int Score = 0;
-
-    
+   
 
 
     private void OnCollisionEnter(Collision collision)

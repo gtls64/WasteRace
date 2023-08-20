@@ -6,15 +6,23 @@ public class RedBin : MonoBehaviour
 
 {
     
-    public int Score = 0;
-
+ 
     public AudioClip correctClip;
     public AudioClip wrongClip;
 
     private AudioSource audioSource;
 
-    private void OnCollisionEnter(Collision collision)
+    void Start()
     {
+        SpeedPoints.TheSpeedPoints = 0;
+    }
+
+    private void OnCollisionEnter(Collision collision)
+
+
+    {
+        
+
         // Check if the collision involves the tag "Player"
         if (collision.gameObject.CompareTag("CategoryA"))
         {

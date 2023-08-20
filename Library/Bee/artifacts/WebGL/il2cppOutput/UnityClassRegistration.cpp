@@ -130,7 +130,6 @@ class Collider; template <> void RegisterUnityClass<Collider>(const char*);
 class MeshCollider; template <> void RegisterUnityClass<MeshCollider>(const char*);
 class PhysicsManager; template <> void RegisterUnityClass<PhysicsManager>(const char*);
 class Rigidbody; template <> void RegisterUnityClass<Rigidbody>(const char*);
-class SphereCollider; template <> void RegisterUnityClass<SphereCollider>(const char*);
 namespace TextRendering { class Font; } template <> void RegisterUnityClass<TextRendering::Font>(const char*);
 namespace UI { class Canvas; } template <> void RegisterUnityClass<UI::Canvas>(const char*);
 namespace UI { class CanvasGroup; } template <> void RegisterUnityClass<UI::CanvasGroup>(const char*);
@@ -141,7 +140,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 75 non stripped classes
+	//Total: 74 non stripped classes
 	//0. Animator
 	RegisterUnityClass<Animator>("Animation");
 	//1. AnimatorController
@@ -280,17 +279,15 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<PhysicsManager>("Physics");
 	//68. Rigidbody
 	RegisterUnityClass<Rigidbody>("Physics");
-	//69. SphereCollider
-	RegisterUnityClass<SphereCollider>("Physics");
-	//70. Font
+	//69. Font
 	RegisterUnityClass<TextRendering::Font>("TextRendering");
-	//71. Canvas
+	//70. Canvas
 	RegisterUnityClass<UI::Canvas>("UI");
-	//72. CanvasGroup
+	//71. CanvasGroup
 	RegisterUnityClass<UI::CanvasGroup>("UI");
-	//73. CanvasRenderer
+	//72. CanvasRenderer
 	RegisterUnityClass<UI::CanvasRenderer>("UI");
-	//74. WheelCollider
+	//73. WheelCollider
 	RegisterUnityClass<WheelCollider>("Vehicles");
 
 }

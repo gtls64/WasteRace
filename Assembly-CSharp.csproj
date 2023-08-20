@@ -53,9 +53,10 @@
     <UnityVersion>2021.3.24f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Car.cs" />
     <Compile Include="Assets\Scripts\SpeedPoints.cs" />
     <Compile Include="Assets\Scripts\YellowBin.cs" />
     <Compile Include="Assets\Scripts\RedBin.cs" />
@@ -65,12 +66,14 @@
     <Compile Include="Assets\Scripts\ChangeSceneButton.cs" />
     <Compile Include="Assets\Scripts\WastePointCounter.cs" />
     <Compile Include="Assets\Scripts\CarController.cs" />
+    <Compile Include="Assets\Scripts\CountdownAndCollision.cs" />
     <Compile Include="Assets\Scripts\MouseDrag.cs" />
     <Compile Include="Assets\Scripts\GreenBin.cs" />
     <Compile Include="Assets\Scripts\ItemCollisions.cs" />
-    <Compile Include="Assets\Scripts\CountdownAndCollision.cs" />
     <Compile Include="Assets\Scripts\ChangeSceneOnCollision.cs" />
-    <Compile Include="Assets\Scripts\Car.cs" />
+    <Compile Include="Assets\Scripts\CameraMouseMovement.cs" />
+    <Compile Include="Assets\Scripts\Point2Zero.cs" />
+    <Compile Include="Assets\Scripts\PointView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
